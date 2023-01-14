@@ -1,0 +1,257 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Common Styles */
+
+body{
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+.button-primary{
+  width: 180px;
+  height: 64px;
+  background-color: #FF900E;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+/* Header Style */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  gap: 600px;
+  background-color: #FFF4E7;
+  padding: 50px 100px 0px 100px;  
+}
+.site-title{
+  font-weight: 700;
+  font-size: 25px;
+  color: #131313;
+}
+.nav li{
+  display: flex;
+  
+}
+.nav a{
+  font-weight: 500;
+  color: #424242;
+  text-decoration: none;
+}
+
+/* Banner Section Style */
+
+.banner-section{
+  background-color: #FFF4E7;
+  padding: 50px 100px 50px 100px;  
+
+}
+.banner{
+  margin: 0 230px;
+  text-align: center;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+.banner-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+
+.banner-image img{
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Quick List Section Style */
+
+.quick-list-section{
+  margin: 50px 120px ;
+  display: flex;
+  justify-content: space-between;
+  gap: 75px;
+  align-items: center;
+}
+
+.quick-list-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 24px;
+  column-gap: 24px;
+}
+.quick-list-images img{
+  width: 342px
+}
+.quick-list-title{
+  font-weight: 500;
+  font-size: 45px;
+  color: #131313;
+}
+.text-color{
+  color: #727272;
+}
+.color-orange{
+  color: #FF900E;
+}
+.quick-list-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+/* Features Section */
+
+.feature-section{
+  margin: 50px 120px ;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.feature-title{
+  font-weight: 700;
+  font-size: 35px;
+  color: #131313;
+  padding-left: 20px;
+  border-left: 5px solid #FF900E;
+}
+.feature-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.feature-items{
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.feature-item-title{
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  padding: 30px 30px 0 30px;
+}
+.feature-item-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding: 10px 30px 30px 30px;
+}
+.feature-image img{
+  position: relative;
+  width: 550px;
+  margin-top: 150px;
+}
+.feature-float-text{
+  position: absolute;
+  left: 600px;
+  top: 2904px;
+  width: 176px;
+  height: 100px;
+  background-color: #FF900E;
+  border: 0;
+  border-radius: 8px;
+}
+.float-text{
+  text-align: center;
+}
+.float-text-1{
+  font-weight: 700;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.float-text-2{
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+/* Facts Section Style */
+
+.facts-section{
+  margin: 50px 120px ;
+}
+.facts-title{
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.facts-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  width: 542px;
+  margin-bottom: 100px;
+}
+.facts-images{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.facts-image{
+  padding: 35px 45px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+.facts-image:hover{
+  background-color: #FF900E;
+  transform: rotate(30deg);
+}
+.facts-image-title{
+  font-weight: 600;
+  font-size: 25px;
+  color:#424242;
+  margin: 10px;
+}
+.facts-image-description{
+  font-weight: 600;
+  font-size: 10px;
+  color: #727272;
+  margin: 0;
+}
+
+/* Sponsor Section */
+
+.sponsor{
+  margin: 50px 120px ;
+  text-align: center;
+}
+.sopnsor-title{
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 30px;
+}
+.sponsor-description{
+  font-weight: 400;
+  color: #727272;
+  margin: 0 300px;
+  margin-bottom: 30px;
+}
+.sponsor-logo{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sponsor-logo img{
+  filter: grayscale(100%);
+}
+
+/* Footer Style */
+
+.footer{
+  margin: 50px 120px ;
+  text-align: center;
+  background-color: #FFF4E7;
+  padding: 20px 0;
+}
+.footer-text{
+  font-weight: 400;
+  font-size: 15px;
+  color: #424242;
+}
