@@ -394,7 +394,7 @@ input{
 
   }
 
-/* Facts Section Style */
+/* Responsive Facts Section Style */
 
 .facts-section{
   margin: 100px 20px ;
@@ -413,7 +413,11 @@ input{
   justify-content: space-between;
   gap: 10px;
   }
-
+  .facts-image:hover{
+  background-color: #FF900E;
+  transform: none;
+  }
+  
   /* Sponsor Section */
 
 .sponsor{
