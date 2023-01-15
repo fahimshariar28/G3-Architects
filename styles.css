@@ -25,6 +25,7 @@ body{
   display: flex;
   justify-content: space-between;
   gap: 600px;
+  align-items: center;
   background-color: #FFF4E7;
   padding: 50px 100px 0px 100px;  
 }
