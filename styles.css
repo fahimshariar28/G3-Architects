@@ -222,7 +222,7 @@ body{
   margin: 50px 120px ;
   text-align: center;
 }
-.sopnsor-title{
+.sponsor-title{
   font-weight: 700;
   font-size: 45px;
   color: #131313;
@@ -295,4 +295,165 @@ input{
   font-weight: 400;
   font-size: 15px;
   color: #424242;
+}
+
+/* Responsive Mobile Device Style */
+
+
+
+@media screen and (max-width: 576px) {
+
+  /* Responsive Common Style */
+
+  .button-primary{
+    width: 150px;
+    height: 54px;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+  /* Responsive header Style */
+
+  .header {
+    gap: 20px;
+    background-color: #FFF4E7;
+    flex-direction: column;
+    padding: 20px 40px 20px 0;
+    align-items: center;
+  }
+
+/* Responsive Banner Style */
+
+  .banner-section{
+    padding: 20px 40px 20px 40px;
+  }
+  .banner{
+  margin: 0;
+  text-align: center;
+  }
+  .banner-title{
+  font-weight: 700;
+  font-size: 26px;
+  color: #131313;
+  }
+.banner-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+  }
+
+.banner-image img{
+  margin-top: 30px;
+  width: 100%;
+  }
+/* Responsive Quick List Section Style */
+
+.quick-list-section{
+  margin: 50px 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 75px;
+  align-items: center;
+  }
+
+.quick-list-images{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 24px;
+  column-gap: 24px;
+  }
+.quick-list-title{
+  font-weight: 500;
+  font-size: 35px;
+  color: #131313;
+  }
+
+/* Responsive Features Section Style*/
+
+.feature-section{
+  margin: 50px 20px ;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  }
+.feature-image img{
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+  }
+.feature-float-text{
+  position: absolute;
+  left: 100px;
+  top: 4350px;
+
+  }
+
+/* Facts Section Style */
+
+.facts-section{
+  margin: 100px 20px ;
+  }
+
+.facts-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  width: 320px;
+  margin-bottom: 100px;
+  }
+.facts-images{
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  }
+
+  /* Sponsor Section */
+
+.sponsor{
+  margin: 50px 20px ;
+  text-align: center;
+  }
+
+.sponsor-description{
+  margin: 0;
+  margin-bottom: 50px;
+  }
+.sponsor-logo{
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  }
+.sponsor-logo img{
+  width: 200px;
+  filter: grayscale(100%);
+  } 
+
+/* Responsive Contact Section Style */
+
+.contact{
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  background: #FFF4E7;
+  padding: 50px 20px;
+  text-align: left;
+  } 
+.contact input[type="text"], input[type="email"], textarea{
+  width: 80%;
+  }
+
+/* Footer Style */
+
+.footer{
+  margin: 50px 20px ;
+  text-align: center;
+  background-color: #FFF4E7;
+  }
 }
